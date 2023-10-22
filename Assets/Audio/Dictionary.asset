@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd41cde6482809043beef94d9f4749e0, type: 3}
+  m_Name: Dictionary
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Headshot
+    clip: {fileID: 8300000, guid: 03127ebfe0aa4114a8bd6ee7d680c24a, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 215c14d6856d56742b181eb277d00ec3, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: QChannel
+    clip: {fileID: 8300000, guid: 851fb529861a05b4f85732389482edbd, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: QShot
+    clip: {fileID: 8300000, guid: 1c976ed2bd0e5584eae570ad94cb51ba, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EShot
+    clip: {fileID: 8300000, guid: ba5cad96594a5f44aa46b85763a4fa77, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TrapPrime
+    clip: {fileID: 8300000, guid: 7f962ffabdf8a9d47992ed97c79f29ad, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Trapped
+    clip: {fileID: 8300000, guid: 57c5d0b60caebee4782440765828f7f9, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RCharge
+    clip: {fileID: 8300000, guid: 422bfb707bebae64bbb91f9706f00304, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RShot
+    clip: {fileID: 8300000, guid: 36bf5b37589a91f4e823b16c9ed7b021, type: 3}
+    mixerGroup: {fileID: 8615205256228751124, guid: a44e9c9fac9f2d74fa868a3312d3f8bc, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
